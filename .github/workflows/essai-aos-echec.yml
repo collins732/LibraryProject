@@ -1,0 +1,7 @@
+name: Essai AOS echec
+on: [pull_request, push]
+jobs:
+  echec:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Essai AOS, echec voulu" && exit 1
